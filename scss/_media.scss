@@ -1,0 +1,153 @@
+@media screen and (min-width: 425px) {
+    .row {
+        padding: 0 20px;
+    }
+    .home {
+        &__content {
+            .home__content-main {
+                p {
+                    font-size: 5vw;
+                    letter-spacing: normal;
+                    line-height: 7.5vw;
+                }
+                h1 {
+                    margin: 29px 0px 85px;
+                    font-size: 10.8vw;
+                    line-height: 12vw;
+                    span {
+                        letter-spacing: 0.8px;
+                    }
+                }
+                
+            }
+            .home__content-second {
+                margin-top: 20vw;
+                margin-bottom: 20vw;
+                .title {
+                    font-size: 8vw;
+
+                }
+                .home__content-second-wrapper {
+                .p {
+                       font-size: 5.5vw;
+                       line-height: 7.5vw;
+                }
+                .home__accordion {
+                    .accordion {
+                        margin-top: 2vw;
+                    }
+                    .accordion h3 {
+                        font-size: 20px;
+                        font-weight: 900;
+                    }
+            }
+        }
+    }
+}
+    }
+}
+
+
+@media screen and (min-width: 766px) {
+    .row {
+        padding: 0 30px;
+    }
+    .home {
+        &__content {
+            .home__content-main {
+                p {
+                    letter-spacing: .2px;
+                    line-height: 6vw;
+                    font-size: 3vw;
+                }
+                h1 {
+                    margin: 31px 0px 92px;
+                    font-size: 9.8vw;
+                    line-height: 11vw;
+                    letter-spacing: -.4vw;
+                }
+                
+            }
+            .home__content-second {
+                margin-top: 20vw;
+                margin-bottom: 20vw;
+                .title {
+                    font-size: 6vw;
+                }
+                .home__content-second-wrapper { 
+                    .p {
+                       font-size: 3vw;
+                       line-height: 7.5vw;
+                       }
+                       .home__accordion {
+                        .accordion {
+                            margin-top: 2vw;
+                        }
+                        .accordion h3 {
+                            font-size: 24px;
+                            font-weight: 900;
+                        }
+                }
+                }
+        }
+    }
+}
+}
+
+@media screen and (min-width: 1000px) {
+    .row {
+        padding: 0 40px;
+    }
+    .home {
+        &__content {
+            .home__content-main {
+                p {
+                    letter-spacing: .2px;
+                    line-height: 160%;
+                    font-size: 20px;
+                }
+                h1 {
+                    margin: 50px 0px 100px;
+                    font-size: 72px;
+                    line-height: 120%;
+                    span {
+                        font-size: 72px;
+                        letter-spacing: -4px;
+                    }
+                }
+            }
+            .home__content-second {
+                margin-top: 100px;
+                margin-bottom: 100px; 
+                .home__content-second-wrapper { 
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    .p {
+                        width: 450px;
+                        font-size: 20px;
+                        line-height: 160%;
+                       }
+                       .home__accordion {
+                        margin-top: 0;
+                        width: 450px;
+                        .accordion {
+                            margin-top: 0px;
+                            margin-bottom: 20px;
+                            cursor: pointer;
+                            h3 {
+                                font-size: 24px;
+                                font-weight: 700;
+                            }
+                        }
+                    }
+                }
+                .title {
+                    font-size: 48px;
+                    margin-bottom: 50px;
+                }
+                
+            }
+        }
+    }
+}
