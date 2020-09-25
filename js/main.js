@@ -26,7 +26,7 @@ for (i = 0; i < acc.length; i++) {
 function toggle() {
     let trailer = document.querySelector(".trailer");
     let video = document.querySelector("video");
-    let home = document.querySelector('body');
+    let home = document.querySelector('html');
     home.classList.toggle('bg')
     trailer.classList.toggle("active");
     video.pause();
