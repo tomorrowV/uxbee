@@ -24,11 +24,15 @@ for (i = 0; i < acc.length; i++) {
 
 
 function toggle() {
-    let trailer = document.querySelector(".trailer");
-    let video = document.querySelector("video");
-    let home = document.querySelector('html');
-    home.classList.toggle('bg')
+    let trailer = document.querySelector(".trailer"),
+        video = document.querySelector("video"),
+        home = document.querySelector('html'),
+        banner = document.querySelector('.banner'),
+        header = document.querySelector('.header');
+    header.classList.toggle('active');
+    home.classList.toggle('bg');
     trailer.classList.toggle("active");
+    banner.classList.toggle("active");
     video.pause();
     video.currentTime = 0;
 };
